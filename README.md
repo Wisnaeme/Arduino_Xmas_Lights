@@ -1,6 +1,11 @@
 # Arduino_Xmas_Lights
 A quick experimental project for some Christmas tree lights.
 
+This code can feed your lights PWM analog signals through as many Analog outs your device has.
+This means you can control up to eight seperate strips of lights using this code. Simply
+edit the code to plug in your extra channels and go. The code should auto-scale to match with
+no further changes required.
+
 In the header of the INO file you will see there are a lot of values you can change to setup the file.
 You should first change the PIN allocations you set for the analog outputs of your Arduino in
 line 19. You should directly state the Analog pin reference. i.e. Pins 3 and 5 in the example below.
